@@ -1,0 +1,25 @@
+[{
+	"from": "",
+	"to": "_show/page",
+	"query": {
+		"page": "home"
+	}
+},{
+	"from": "/css/*",
+	"to": "css/*"
+},{
+	"from": "/images/*",
+	"to": "images/*"
+},{
+	"from": "/js/*",
+	"to": "js/*"
+},{
+	"from": "/favicon.ico",
+	"to": "favicon.ico"
+},{
+	"from": "/:page",
+	"to": "_show/page",
+	"query": {
+		"page": ":page"
+	}
+}]
