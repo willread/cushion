@@ -5,6 +5,6 @@ function(req, doc){
 	var page = this.pages[name];
   	return Mustache.to_html(this.templates[name] || this.templates.default, {
   		cushion: this.cushion,
-  		page: sundown(page),
+  		page: page ? sundown(page) : "",
   	}, this.templates.partials);
 }
