@@ -1,0 +1,13 @@
+{{> header}}
+		<div class="bar light">
+			<div class="container">
+				<div id="content">
+					<h3>{{title}}</h3>
+					<h4>{{date}}</h4>
+					<div>{{{content}}}</div>
+					{{#previous}}<a href="/blog/{{previous.content}}">&lt; Previous</a>{{/previous}}
+					{{#next}}<a href="/blog/{{next.content}}">Next &gt;</a>{{/next}}
+				</div>
+			</div>
+		</div>
+{{> footer}}

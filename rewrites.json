@@ -17,6 +17,16 @@
 	"from": "/favicon.ico",
 	"to": "favicon.ico"
 },{
+	"from": "/blog/:post",
+	"to": "_show/post",
+	"query": {
+		"post": ":post"
+	}
+},
+{
+	"from": "/blog",
+	"to": "_show/post"
+},{
 	"from": "/:page",
 	"to": "_show/page",
 	"query": {
