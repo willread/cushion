@@ -8,8 +8,8 @@
 	"from": "/css/*",
 	"to": "css/*"
 },{
-	"from": "/images/*",
-	"to": "images/*"
+	"from": "/img/*",
+	"to": "img/*"
 },{
 	"from": "/js/*",
 	"to": "js/*"
